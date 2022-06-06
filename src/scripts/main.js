@@ -30,11 +30,11 @@ function darklight(theme){
 
     if (theme == "dark"){
         imdButton.setAttribute('src','assets/images/lune-DOP.svg');
-        imdDwm.setAttribute('src','assets/images/logo-dwt_light.svg');
+        imdDwm.setAttribute('src','assets/images/logo-dwt.svg');
         imdlogo.setAttribute('src','assets/images/logo_DOP.svg');
     }else if (theme == "light"){
         imdButton.setAttribute('src','assets/images/soleil-BOP.svg');
-        imdDwm.setAttribute('src','assets/images/logo-dwt.svg');
+        imdDwm.setAttribute('src','assets/images/logo-dwt_light.svg');
         imdlogo.setAttribute('src','assets/images/logo_BOP.svg');
     }
 }

@@ -1,34 +1,18 @@
+$txt-color:#f7f7f7;
+$fond-color: #182133;
+$hover-color: #697a97;
 
+$textmob: 18px;
+$titremob-un: 51px;
+$titremob-deux: 36px;
+$titremob-trois: 25px; 
 
-:root{
-    --text-color:#f7f7f7;
-    --fond-color:#182133;
-    --hover-color:#697a97;
-    --foot-color:#534160;
-    
-    }
-    
-@media (prefers-color-scheme: dark){
-    :root{
-        --text-color:#182133;
-        --fond-color:#f7f7f7;
-        --hover-color:#333e4f;
-        --foot-color: #d8cedd;
-        
-    }
-}
+$texttab: 20px;
+$titretab-un: 28px;
+$titretab-deux: 40px;
+$titretab-trois: 57px;
 
-    [data-theme="light"]{
-        --text-color:#f7f7f7;
-        --fond-color:#182133;
-        --hover-color:#697a97;
-        --foot-color:#534160;
-    
-    }
-    
-    [data-theme="dark"]{
-        --text-color:#182133;
-        --fond-color:#f7f7f7;
-        --hover-color:#333e4f;
-        --foot-color: #d8cedd;
-    }
+$textpc: 22px;
+$titretpc-un: 31px;
+$titretpc-deux: 44px;
+$titretpc-trois: 62px;

@@ -1,10 +1,161 @@
-body {
-    font-family: sans-serif;
-    font-size: $size-text;
-    line-height: 1.5;
-    color: $c-text;
+body{
+    background-image: url(../../assets/images/fond_DOP.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
 }
 
-.title {
-    color: $c-alt;
+
+
+
+// header// // header// // header//
+
+.logo {
+   width: 320px;
+}
+
+p, .titre, footer{
+   color: $txt-color;
+   font-family: 'Quicksand', sans-serif;
+}
+
+p{
+   font-size: 18px;
+}
+.titre--deux{
+   font-size: 36px;
+}
+.titre--un{
+   font-size: 51px;
+}
+
+.header{
+   text-align: center;
+   margin: 0px 18px 203px 18px;
+   
+}
+
+//main// //main// //main//
+
+.icone{
+   height: 180px;
+   margin: auto;
+   display: flex;
+   margin-bottom: 51px;
+}
+
+.contenue{
+   margin: 0px 18px 0px 18px;
+
+
+}
+
+.contenue__ecout {
+   margin-bottom: 102px;
+   border-bottom: 2px solid var(--text-color);
+   
+}
+.contenue__ecout p, .contenue__apprend{
+   margin-bottom: 102px;
+   
+   
+}
+
+.navfo__liste--li a, .footer__info a {
+   color: var( --hover-color);
+   text-decoration: none;
+   padding: 5px;
+   border-radius: 10px;
+   }
+   
+.navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
+   background-color: var(--hover-color);
+   
+}
+
+.navfo__liste--li a:visited, .footer__info a:visited:not(.footer__info--nohover) {
+   background-color: var(--hover-color);
+   
+}
+
+
+//footer// //footer// //footer//
+
+.footer__info {
+   padding: 9px 0 9px 0;
+   text-align: center;
+   font-size: 18px;
+    font-weight: normal;
+   text-decoration: none;
+}
+
+.footer__info p{
+   width: 100%;
+}
+
+.footer__info--logodwm{
+   height: 40px;
+   width: 60px;
+}
+
+/* DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS */
+@media only screen and (min-width:1000px) { 
+
+
+// header// // header// // header//
+
+.logo {
+   width: 320px;
+}
+
+
+p{
+   font-size: 20px;
+}
+.titre--deux{
+   font-size: 40px;
+}
+.titre--un{
+   font-size: 57px;
+}
+
+.header{
+   text-align: center;
+   margin: 0px 20px 226px 20px;
+   
+}
+
+
+//main// //main// //main//
+
+.icone{
+   margin-bottom: 57px;
+}
+
+.contenue{
+   margin: 0px 20px 0px 20px;
+}
+
+
+
+.contenue__ecout {
+   margin-bottom: 113px;   
+}
+.contenue__ecout p, .contenue__apprend{
+   margin-bottom: 113px;  
+}
+
+
+//footer// //footer// //footer//
+
+.footer__info {
+   padding: 10px 0 10px 0;
+   
+   font-size: 20px;
+    
+}
+
+
+
 }
