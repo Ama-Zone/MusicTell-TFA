@@ -351,6 +351,7 @@ body {
 
 .logo {
   width: 320px;
+  cursor: pointer;
 }
 
 p, .titre, footer, span {
@@ -360,6 +361,7 @@ p, .titre, footer, span {
 
 p {
   font-size: 18px;
+  line-height: 1.4;
 }
 
 .titre--deux {
@@ -391,7 +393,7 @@ header {
 }
 
 .contenue {
-  margin: 0px 18px 0px 18px;
+  margin: 0px 18px 72px 18px;
 }
 
 .contenue__ecout {
@@ -404,19 +406,24 @@ header {
   margin-bottom: 102px;
 }
 
+.contenue__img {
+  height: 250px;
+  width: 100%;
+}
+
 .navfo__liste--li a, .footer__info a {
-  color: var(--hover-color);
+  color: #697a97;
   text-decoration: none;
   padding: 5px;
   border-radius: 10px;
 }
 
 .navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
-  background-color: var(--hover-color);
+  background-color: #697a97;
 }
 
 .navfo__liste--li a:visited, .footer__info a:visited:not(.footer__info--nohover) {
-  background-color: var(--hover-color);
+  background-color: #697a97;
 }
 
 .footer__info {
