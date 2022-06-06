@@ -1,9 +1,54 @@
 @import 'utils/variables';
 @import 'components/type';
 
+
+
+body{
+     background-color: #182133;
+}
+
+// header//
+
 .logo {
     width: 320px;
 }
-body{
-    background-color: aqua;
+
+p, .titre{
+    color: #f7f7f7;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+.titre--H2{
+    font-size: 36px;
+}
+.titre--H1{
+    font-size: 51px;
+}
+
+.header{
+    text-align: center;
+    margin: 0px 18px 203px 18px;
+    
+}
+
+//main//
+
+.icone{
+    height: 180px;
+    margin: auto;
+    display: flex;
+}
+
+.contenue{
+    margin: 0px 18px 0px 18px;
+
+
+}
+
+.contenue__ecout{
+    margin-bottom: 102px;
+    border-bottom: 2px solid #f7f7f7;
 }
