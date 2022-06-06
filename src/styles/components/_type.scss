@@ -1,5 +1,5 @@
 body{
-    background-image: url(../../assets/images/fond_DOP.png);
+    background-image: url(../assets/images/fondDOP.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -13,27 +13,35 @@ body{
 
 .logo {
    width: 320px;
+   
+   
 }
 
-p, .titre, footer{
+p, .titre, footer, span{
    color: $txt-color;
    font-family: 'Quicksand', sans-serif;
 }
 
 p{
-   font-size: 18px;
+   font-size: $textmob;
 }
 .titre--deux{
-   font-size: 36px;
+   font-size: $titremob-deux;
 }
 .titre--un{
-   font-size: 51px;
+   font-size: $titremob-un;
 }
 
-.header{
+header{
    text-align: center;
-   margin: 0px 18px 203px 18px;
-   
+   height: 100vh;
+   margin-top: 15vh;
+}
+
+.fleche{
+    width: 51px;
+    margin-top: 144px;
+
 }
 
 //main// //main// //main//
@@ -53,7 +61,8 @@ p{
 
 .contenue__ecout {
    margin-bottom: 102px;
-   border-bottom: 2px solid var(--text-color);
+   border-bottom: 2px solid $txt-color;
+   border-radius: 1px;
    
 }
 .contenue__ecout p, .contenue__apprend{
@@ -120,9 +129,11 @@ p{
    font-size: 57px;
 }
 
-.header{
+header{
    text-align: center;
-   margin: 0px 20px 226px 20px;
+   margin: 0px auto 226px auto;
+   justify-content: center;
+   display: flex;
    
 }
 
