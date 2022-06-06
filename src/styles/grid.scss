@@ -1,0 +1,33 @@
+
+ //grid nav footer mobile//
+ 
+.navfo__liste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 36px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 18px;
+    width: max-content;
+   
+}
+
+.navfo__liste--credits {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.navfo__liste--ui {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.navfo__liste--case {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: center;
+}
