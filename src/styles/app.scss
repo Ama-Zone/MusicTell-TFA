@@ -8,7 +8,11 @@
 
 
 body{
-     background-color: #182133;
+     background-color: var(--fond-color);
+}
+body[data-theme="dark"] body{
+    
+    background-color: var(--fond-color);
 }
 
 
@@ -20,7 +24,7 @@ body{
 }
 
 p, .titre{
-    color: var (--text-color);
+    color: var(--text-color);
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -57,7 +61,7 @@ p{
 
 .contenue__ecout {
     margin-bottom: 102px;
-    border-bottom: 2px solid var (--text-color);
+    border-bottom: 2px solid var(--text-color);
     
 }
 .contenue__ecout p, .contenue__apprend{
@@ -74,12 +78,12 @@ p{
     }
     
 .navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
-    background-color: var (--hover-color);
+    background-color: var(--hover-color);
     
 }
 
 .navfo__liste--li a:visited, .footer__info a:visited:not(.footer__info--nohover) {
-    background-color: var (--hover-color);
+    background-color: var(--hover-color);
     
 }
 
@@ -87,9 +91,9 @@ p{
 //footer// //footer// //footer//
 
 .footer__info {
-    padding: 5px 0 5px 0;
+    padding: 9px 0 9px 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
      font-weight: normal;
     text-decoration: none;
 }
@@ -103,6 +107,66 @@ p{
     width: 60px;
 }
 
+/* DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS */
+@media only screen and (min-width:1000px) { 
+
+
+// header// // header// // header//
+
+.logo {
+    width: 320px;
+}
+
+
+p{
+    font-size: 20px;
+}
+.titre--H2{
+    font-size: 40px;
+}
+.titre--H1{
+    font-size: 57px;
+}
+
+.header{
+    text-align: center;
+    margin: 0px 20px 226px 20px;
+    
+}
+
+
+//main// //main// //main//
+
+.icone{
+    margin-bottom: 57px;
+}
+
+.contenue{
+    margin: 0px 20px 0px 20px;
+}
+
+
+
+.contenue__ecout {
+    margin-bottom: 113px;   
+}
+.contenue__ecout p, .contenue__apprend{
+    margin-bottom: 113px;  
+}
+
+
+//footer// //footer// //footer//
+
+.footer__info {
+    padding: 10px 0 10px 0;
+    
+    font-size: 20px;
+     
+}
+
+
+
+}
 
 
 
