@@ -37,7 +37,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 62px;
+    grid-template-rows: 249px;
     list-style-type: none;
     padding-inline-start: 0px;
     margin-left: auto;
@@ -45,29 +45,30 @@
     column-gap: 22px;
     width: max-content;
    
+   
 } 
 
 
-.grid--zero{
+.grid--un{
     grid-column-start: 1;
     grid-row-start: 1;
-    margin: 0px;
+   
 }
 
-.grid--un{
+.grid--deux{
     grid-column-start: 2;
     
 }
 
  
 
-.grid--deux{
+.grid--trois{
     grid-column-start: 1;
     
 }
 
 
-.grid__B0--C3{
+.grid--quatre{
     grid-column-start: 3;
     
 }

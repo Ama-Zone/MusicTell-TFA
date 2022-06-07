@@ -276,15 +276,19 @@ header{
     margin-bottom: 62px;
     }
 
-    .contenue{
+    .contenue, .contenu {
       max-width: 900px;
       margin: auto;
     }
 
     .contenue__img{
-        height: 800px;
+        height: 620px;
         width: 100%; 
         
+    }
+
+    .contenu{
+       margin-bottom: 124px;
     }
 
     .contenue__ecout {
