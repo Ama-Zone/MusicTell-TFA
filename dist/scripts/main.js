@@ -5607,6 +5607,27 @@ __webpack_require__.r(__webpack_exports__);
 
 console.log(gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.version);
 
+
+
+
+/*let fleche = document.querySelector('.fleche');*/
+const tlFleche = gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.timeline({});
+tlFleche.to('.fleche',{
+   y:25,
+   duration: 0.7,
+   repeat: -1,
+   yoyo: true,
+   ease: 'linear' 
+});
+
+
+
+
+
+
+
+
+
 /*gsap.to('.box',{ x:100, rotation: 360, backgroundColor: 'green', duration: 2});*/
 /*gsap.fromto('.box',{ x: -100, opacity: 0}, {x: 100, duration: 2, opacity :1});*/
 
@@ -5643,16 +5664,16 @@ console.log(gsap__WEBPACK_IMPORTED_MODULE_0__.gsap.version);
    // }
 //}
 
-function choix(){
+//function choix(){
 
-    let theme = document.body.getAttribute("data-theme");
+    //let theme = document.body.getAttribute("data-theme");
     
-    if(theme == "dark"){
-        darklight("light");
-    }else{
-        darklight("dark");
-    }
-}
+    //if(theme == "dark"){
+        //darklight("light");
+    //}else{
+        //darklight("dark");
+    //}
+//}
 
 
 

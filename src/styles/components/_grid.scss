@@ -1,5 +1,4 @@
-
- //grid nav footer mobile//
+//grid nav footer //
  
 .navfo__liste{
     display: grid;
@@ -30,4 +29,45 @@
     grid-column-start: 1;
     grid-row-start: 1;
     text-align: center;
+}
+
+
+//grid main desk //
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 62px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 22px;
+    width: max-content;
+   
+} 
+
+
+.grid--zero{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin: 0px;
+}
+
+.grid--un{
+    grid-column-start: 2;
+    
+}
+
+ 
+
+.grid--deux{
+    grid-column-start: 1;
+    
+}
+
+
+.grid__B0--C3{
+    grid-column-start: 3;
+    
 }

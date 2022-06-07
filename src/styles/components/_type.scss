@@ -13,7 +13,7 @@ body{
 
 .logo {
    width: 320px;
-   cursor: pointer;
+   cursor: pointer; 
    
 }
 
@@ -57,6 +57,8 @@ header{
 
 .contenue{
    margin: 0px 18px 72px 18px;
+   
+  
 
 
 }
@@ -115,7 +117,7 @@ main {
    border-radius: 10px;
    }
    
-.navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
+ .navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
     background-color: $txt-color;
     padding: 6px;
     color: $fond-color;
@@ -157,7 +159,8 @@ main {
 p{
    font-size: $texttab;
    line-height: 1.5;
-   padding: 0px 57px 0px 57px;
+
+   padding-right: 20px;
    
 }
 .titre--deux{
@@ -212,7 +215,7 @@ header{
  }
  
  .contenue__img{
-     height: 250px;
+     height: 400px;
      width: 100%; 
      
  }
@@ -237,58 +240,75 @@ header{
 
 // header// // header// // header//
 
-.logo {
-   width: 320px;
-}
-
-
-p{
-   font-size: 20px;
-}
-.titre--deux{
-   font-size: 40px;
-}
-.titre--un{
-   font-size: 57px;
-}
-
-header{
-   text-align: center;
-   margin: 0px auto 226px auto;
-   justify-content: center;
-   display: flex;
-   
-}
-
-
-//main// //main// //main//
-
-.icone{
-   margin-bottom: 57px;
-}
-
-.contenue{
-   margin: 0px 20px 0px 20px;
-}
-
-
-
-.contenue__ecout {
-   margin-bottom: 113px;   
-}
-.contenue__ecout p, .contenue__apprend{
-   margin-bottom: 113px;  
-}
-
-
-//footer// //footer// //footer//
-
-.footer__info {
-   padding: 10px 0 10px 0;
-   
-   font-size: 20px;
+ p{
+    font-size: $textpc;
+    line-height: 1.5;
+ 
+    padding-right: 22px;
     
-}
+ }
+ .titre--deux{
+    font-size: $titrepc-deux;
+ 
+ }
+ .titre--un{
+    font-size: $titrepc-un;
+ }
+ 
+ header{
+    
+    
+    margin-top: 22vh;
+    
+ }
+ 
+ .fleche{
+     width: 62px;
+     margin-top: 35vh;
+ 
+ }
+ 
+
+
+    //main// //main// //main//
+
+    .icone{
+    margin-bottom: 62px;
+    }
+
+    .contenue{
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .contenue__img{
+        height: 800px;
+        width: 100%; 
+        
+    }
+
+    .contenue__ecout {
+    margin-bottom: 124px;   
+    }
+    .contenue__ecout p, .contenue__apprend{
+    margin-bottom: 124px;  
+    }
+    .contenue__txt{
+       max-width: 70%;
+    }
+    .button:hover{
+       background-color: $hover-color;
+       color: $txt-color;
+    }
+
+    //footer// //footer// //footer//
+
+    .footer__info {
+    padding: 10px 0 10px 0;
+    
+    font-size: 20px;
+        
+    }
 
 
 

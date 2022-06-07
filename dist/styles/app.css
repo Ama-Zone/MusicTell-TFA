@@ -477,7 +477,7 @@ main {
   p {
     font-size: 20px;
     line-height: 1.5;
-    padding: 0px 57px 0px 57px;
+    padding-right: 20px;
   }
 
   .titre--deux {
@@ -528,7 +528,7 @@ main {
   }
 
   .contenue__img {
-    height: 250px;
+    height: 400px;
     width: 100%;
   }
 
@@ -544,47 +544,58 @@ main {
 }
 /* DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS DESKTOPS */
 @media only screen and (min-width: 1000px) {
-  .logo {
-    width: 320px;
-  }
-
   p {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    padding-right: 22px;
   }
 
   .titre--deux {
-    font-size: 40px;
+    font-size: 44px;
   }
 
   .titre--un {
-    font-size: 57px;
+    font-size: 62px;
   }
 
   header {
-    text-align: center;
-    margin: 0px auto 226px auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    margin-top: 22vh;
+  }
+
+  .fleche {
+    width: 62px;
+    margin-top: 35vh;
   }
 
   .icone {
-    margin-bottom: 57px;
+    margin-bottom: 62px;
   }
 
   .contenue {
-    margin: 0px 20px 0px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .contenue__img {
+    height: 800px;
+    width: 100%;
   }
 
   .contenue__ecout {
-    margin-bottom: 113px;
+    margin-bottom: 124px;
   }
 
   .contenue__ecout p, .contenue__apprend {
-    margin-bottom: 113px;
+    margin-bottom: 124px;
+  }
+
+  .contenue__txt {
+    max-width: 70%;
+  }
+
+  .button:hover {
+    background-color: #697a97;
+    color: #f7f7f7;
   }
 
   .footer__info {
@@ -627,7 +638,38 @@ main {
   text-align: center;
 }
 
-body[data-theme=dark] body {
-  background-color: var(--fond-color);
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 62px;
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-column-gap: 22px;
+     -moz-column-gap: 22px;
+          column-gap: 22px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.grid--zero {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin: 0px;
+}
+
+.grid--un {
+  grid-column-start: 2;
+}
+
+.grid--deux {
+  grid-column-start: 1;
+}
+
+.grid__B0--C3 {
+  grid-column-start: 3;
 }
 /*# sourceMappingURL=app.css.map */
