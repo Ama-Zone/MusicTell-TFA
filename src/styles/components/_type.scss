@@ -17,7 +17,7 @@ body{
    
 }
 
-p, .titre, footer, span{
+p, .titre, footer, span, .button{
    color: $txt-color;
    font-family: 'Quicksand', sans-serif;
 }
@@ -42,13 +42,13 @@ header{
 
 .fleche{
     width: 51px;
-    margin-top: 144px;
+    margin-top: 20vh;
 
 }
 
 //main// //main// //main//
 
-.icone{
+.contenue__ecout--icone, .contenue__apprend--icone{
    height: 180px;
    margin: auto;
    display: flex;
@@ -60,12 +60,15 @@ header{
 
 
 }
-
 .contenue__ecout {
    margin-bottom: 102px;
    border-bottom: 2px solid $txt-color;
    border-radius: 1px;
    
+}
+
+main {
+    margin-bottom: 203px;
 }
 .contenue__ecout p, .contenue__apprend{
    margin-bottom: 102px;
@@ -79,21 +82,48 @@ header{
     
 }
 
+.button{
+    text-align: center;
+    background-color: $txt-color;
+    text-decoration: none;
+    padding: 18px 25px 18px 25px;
+   margin: 0 auto 0 auto;
+   
+    color: $fond-color;
+    border-radius: 20px;
+}
+
+.contenue--slider{
+    box-sizing: border-box;
+    position: absolute;
+    width: 381px;
+    height: 270px;
+    left: -4px;
+    top: 108px;
+    overflow-x: scroll;
+
+    background: rgba(105, 122, 151, 0.5);
+    border: 1px solid #F7F7F7;
+}
+
+
+
 .navfo__liste--li a, .footer__info a {
-   color: $hover-color;
+   color: $txt-color;
    text-decoration: none;
    padding: 5px;
    border-radius: 10px;
    }
    
 .navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
-   background-color: $hover-color;
+    background-color: $txt-color;
+    padding: 6px;
+    color: $fond-color;
    
 }
 
 .navfo__liste--li a:visited, .footer__info a:visited:not(.footer__info--nohover) {
-   background-color: $hover-color;
-   
+   border-bottom: 2px solid $txt-color;
 }
 
 

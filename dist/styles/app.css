@@ -354,7 +354,7 @@ body {
   cursor: pointer;
 }
 
-p, .titre, footer, span {
+p, .titre, footer, span, .button {
   color: #f7f7f7;
   font-family: "Quicksand", sans-serif;
 }
@@ -380,10 +380,10 @@ header {
 
 .fleche {
   width: 51px;
-  margin-top: 144px;
+  margin-top: 20vh;
 }
 
-.icone {
+.contenue__ecout--icone, .contenue__apprend--icone {
   height: 180px;
   margin: auto;
   display: -webkit-box;
@@ -402,6 +402,10 @@ header {
   border-radius: 1px;
 }
 
+main {
+  margin-bottom: 203px;
+}
+
 .contenue__ecout p, .contenue__apprend {
   margin-bottom: 102px;
 }
@@ -411,19 +415,44 @@ header {
   width: 100%;
 }
 
+.button {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-decoration: none;
+  padding: 18px 25px 18px 25px;
+  margin: 0 auto 0 auto;
+  color: #182133;
+  border-radius: 20px;
+}
+
+.contenue--slider {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 381px;
+  height: 270px;
+  left: -4px;
+  top: 108px;
+  overflow-x: scroll;
+  background: rgba(105, 122, 151, 0.5);
+  border: 1px solid #F7F7F7;
+}
+
 .navfo__liste--li a, .footer__info a {
-  color: #697a97;
+  color: #f7f7f7;
   text-decoration: none;
   padding: 5px;
   border-radius: 10px;
 }
 
 .navfo__liste--li a:hover, .footer__info a:hover:not(.footer__info--nohover) {
-  background-color: #697a97;
+  background-color: #f7f7f7;
+  padding: 6px;
+  color: #182133;
 }
 
 .navfo__liste--li a:visited, .footer__info a:visited:not(.footer__info--nohover) {
-  background-color: #697a97;
+  border-bottom: 2px solid #f7f7f7;
 }
 
 .footer__info {
