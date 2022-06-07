@@ -392,7 +392,7 @@ header {
   margin-bottom: 51px;
 }
 
-.contenue {
+.contenue, .contenu {
   margin: 0px 18px 72px 18px;
 }
 
@@ -509,7 +509,7 @@ main {
     margin-bottom: 57px;
   }
 
-  .contenue {
+  .contenue, .contenu {
     margin: 0px 113px 80px 113px;
   }
 
@@ -577,7 +577,17 @@ main {
   }
 
   .contenue__img {
-    height: 620px;
+    height: 700px;
+    width: 100%;
+  }
+
+  .contenue__img--3 {
+    height: 750px;
+    width: 100%;
+  }
+
+  .contenue__img--2 {
+    height: 640px;
     width: 100%;
   }
 
