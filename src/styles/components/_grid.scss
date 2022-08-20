@@ -2,7 +2,7 @@
  
 .navfo__liste{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 36px;
     list-style-type: none;
     padding-inline-start: 0px;
@@ -13,24 +13,105 @@
    
 }
 
-.navfo__liste--credits {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    text-align: center;
-}
-
-.navfo__liste--ui {
-    grid-column-start: 3;
-    grid-row-start: 1;
-    text-align: center;
-}
-
-.navfo__liste--case {
+.navfo__liste--index {
     grid-column-start: 1;
     grid-row-start: 1;
     text-align: center;
 }
 
+.navfo__liste--credits {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.navfo__liste--ui {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.navfo__liste--case {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+//grid color ui-kit//
+
+.color--block{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: $txt-color solid 1px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.text--indent{
+    text-indent: 5000px;
+    overflow: hidden;
+}
+
+.color--1{
+    background-color: $fond-color;
+   
+
+}
+
+.color--2{
+    background-color: #534160;
+}
+
+
+
+.color--3{
+    background-color: $hover-color;
+}
+
+.color--4{
+    background-color: $txt-color;
+    
+}
+
+//grid lien//
+
+.menuUikit__liste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+
+.menuUikit__liste--normal{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: center;
+
+}
+
+.menuUikit__liste--hover{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.menuUikit__liste--visited{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.menuUikit__liste--focus{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    text-align: center;
+}
 
 //grid main desk //
 

@@ -46,8 +46,8 @@ header{
 
 }
 
-.button--header{
-   margin: 36px 0px 36px 0px;
+.button--duhaut{
+   margin-bottom: 36px;
 } 
 
 //main// //main// //main//
@@ -73,6 +73,13 @@ header{
    
 }
 
+.contenu__video{
+   width: 350px;
+   margin: 0 auto 0 auto;
+   
+
+}
+
 main {
     margin-bottom: 203px;
 }
@@ -82,11 +89,18 @@ main {
    
 }
 
-.contenue__img{
+.contenue__img,.contenue__img--2{
     height: 250px;
     width: 100%; 
     
 }
+
+.contenue__img--3{
+   height: 330px;
+   width: 100%; 
+ }
+
+  
 
 .button{
     text-align: center;
@@ -111,6 +125,7 @@ main {
     background: rgba(105, 122, 151, 0.5);
     border: 1px solid #F7F7F7;
 }
+
 
 
 .autre__liste--el{
@@ -177,6 +192,10 @@ p{
 }
 .titre--un{
    font-size: $titretab-un;
+}
+
+.titre--trois{
+   font-size: $titremob-trois;
 }
 
 header{
