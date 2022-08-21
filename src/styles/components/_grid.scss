@@ -118,7 +118,7 @@
 .contenue__ecout, .contenue__apprend{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 625px;
     list-style-type: none;
     padding-inline-start: 0px;
     margin-left: auto;
@@ -129,15 +129,20 @@
 } 
 
 
-.contenue__ecout--text,.contenue__apprend--text{
+.contenue__ecout--text,.contenue__apprend--text,{
     grid-column-start: 1;
     grid-row-start: 1;
    
 }
 
+
 .contenue__ecout--img,.contenue__apprend--img{
+    grid-column-start: 2;   
+}
+.contenue__ecout--img2{
     grid-column-start: 2;
-    
-    
+}
+.contenue__ecout--p{
+    grid-column-start: 1;
 }
 }
