@@ -68,8 +68,7 @@ header{
 }
 .contenue__ecout {
    margin-bottom: 102px;
-   border-bottom: 2px solid $txt-color;
-   border-radius: 1px;
+   
    
 }
 
@@ -234,8 +233,7 @@ header{
  }
  .contenue__ecout {
     margin-bottom: 113px;
-    border-bottom: 4px solid $txt-color;
-    border-radius: 2px;
+    
     
  }
  
@@ -250,7 +248,8 @@ header{
  
  .contenue__img{
      height: 400px;
-     width: 100%; 
+     width: 100%;
+      
      
  }
  
@@ -330,16 +329,20 @@ header{
       width: 100%; 
     } 
 
+    .contenue__ecout--img,.contenue__apprend--img{
+      margin-bottom: 124px;
+    }
 
     .contenu{
        margin-bottom: 124px;
     }
 
     .contenue__ecout {
-    margin-bottom: 124px;   
+      margin-bottom: 124px; 
+      
     }
     .contenue__ecout p, .contenue__apprend{
-    margin-bottom: 124px;  
+      margin-bottom: 124px;  
     }
     .contenue__txt{
        max-width: 70%;
