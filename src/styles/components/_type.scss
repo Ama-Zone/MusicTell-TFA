@@ -59,16 +59,18 @@ header{
    margin-bottom: 51px;
 }
 
-.contenue, .contenu{
-   margin: 0px 18px 72px 18px;
-   
+.contenue{
+   margin: 0px 18px 124px 18px;
   
-
-
 }
+
+
+
+
 .contenue__ecout {
    margin-bottom: 102px;
-   
+   border-bottom: solid 2px $txt-color;
+   border-radius: 1px;
    
 }
 
@@ -96,14 +98,15 @@ main {
 
 .contenue__img--3{
    height: 330px;
-   width: 100%; 
+   width: 100%;
+    
  }
 
 .contenue__apprend--img,.contenue__ecout--img{
    height: 500px;
    margin: auto;
    display: flex;
-   margin-bottom: 102px;
+   
 }  
 
 .button{
@@ -233,7 +236,8 @@ header{
  }
  .contenue__ecout {
     margin-bottom: 113px;
-    
+    border-bottom: solid 4px $txt-color;
+    border-radius: 1px;
     
  }
  
@@ -286,6 +290,7 @@ header{
  }
  .titre--un{
     font-size: $titrepc-un;
+    
  }
  
  header{
@@ -333,13 +338,14 @@ header{
       margin-bottom: 124px;
     }
 
-    .contenu{
+    .contenue{
        margin-bottom: 124px;
     }
 
-    .contenue__ecout {
-      margin-bottom: 124px; 
-      
+    .contenue__apprend {
+      margin-top: 124px; 
+      border-top: solid 4px $txt-color;
+      border-radius: 1px;
     }
     .contenue__ecout p, .contenue__apprend{
       margin-bottom: 124px;  
